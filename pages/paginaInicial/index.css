@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+:root {
+    --cor-primaria: #FF996B;
+}
+
 body {
     width: 100%;
 }
@@ -14,10 +18,10 @@ header {
     align-items: center;
     padding: 16px 32px;
     box-sizing: border-box;
-    background-color: #FF996B;
+    background-color: var(--cor-primaria);
 }
 
-p {
-    font-size: 24px;
+#logo {
+    font-size: 56px;
 }
 
