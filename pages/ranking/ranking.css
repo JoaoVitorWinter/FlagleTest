@@ -31,3 +31,31 @@ header {
     line-height: 61px;
     font-weight: 400;
 }
+
+/* Main */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 90vh;
+}
+
+#ranking {
+    background-color: var(--cor-secundaria);
+}
+
+#ranking td, #ranking th {
+    padding: 8px;
+    text-align: center;
+    border: var(--black) solid 1px;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--cor-secundaria);
+    padding: 8px 32px;
+    justify-self: flex-end;
+}
