@@ -5,6 +5,7 @@
 
 :root {
     --cor-primaria: #FF996B;
+    --black: #111;
 }
 
 body {
@@ -51,4 +52,13 @@ main {
 
 #flag, #inputGuess {
     width: 256px;
+}
+
+#inputGuess {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 8px 32px;
+    box-sizing: border-box;
+    border: var(--black) solid 1px;
+    border-radius: 8px;
 }
