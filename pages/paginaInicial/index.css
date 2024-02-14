@@ -5,11 +5,13 @@
 
 :root {
     --cor-primaria: #FF996B;
+    --cor-secundaria: #37B87A;
     --black: #111;
 }
 
 body {
     width: 100%;
+    min-height: 100vh;
 }
 
 /* Header */
@@ -34,6 +36,7 @@ header {
 
 main {
     width: 100%;
+    min-height: 80vh;
 }
 
 #game {
@@ -61,4 +64,12 @@ main {
     box-sizing: border-box;
     border: var(--black) solid 1px;
     border-radius: 8px;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--cor-secundaria);
+    padding: 8px 32px;
+    justify-self: flex-end;
 }
